@@ -21,7 +21,7 @@ function Navbar() {
                     <div className="navbar-nav ms-auto px-2 mb-2 mb-lg-0">
                         <a className="nav-item nav-link active" href="#education">Education</a>
                         <a className="nav-item nav-link" href="#experience">Experience</a>
-                        <a className="nav-item nav-link" href="#">Testimonials</a>
+                        <a className="nav-item nav-link" href="#testimonials">Testimonials</a>
                         <a className="nav-item nav-link" href="#">Contact</a>
                     </div>
                 </div>

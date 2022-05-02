@@ -71,7 +71,7 @@ function Project() {
     return (
         <div style={styles.ProjectContainer} id="Project">
 
-            <div class="container  py-5">
+            <div class="container py-5">
                 <div className="row">
                     <div className="col">
                         Projects
