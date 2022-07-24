@@ -26,7 +26,7 @@ function Experience() {
             time: "06/2020 - Current"
         },
         {
-            designation: "Freelance Software Engineer",
+            designation: "Freelancer",
             // company: [
             //     {
             //         name: "Upwork",
@@ -42,7 +42,7 @@ function Experience() {
             time: "09/2017 - Current",
         },
         {
-            designation: "Creative Design Team Head",
+            designation: "Design Team Head",
             siteLink: "https://www.softecnu.org/",
             company: "Softec19",
             time: "06/2018 - 04/2019",
@@ -59,7 +59,7 @@ function Experience() {
         <div id="experience">
 
             <div class="container text-white py-5">
-                <div className="row" style={styles.ExperienceContainer}>
+                <div className="row pb-4" style={styles.ExperienceContainer}>
                     <div className="col">
                         Experience
                     </div>
@@ -68,17 +68,16 @@ function Experience() {
                     experience.map((e)=>{
                         return (
                             <div className="row my-3" style={styles.Project}>
-                                <div className="col-4">
+                                <div className="col-3 col-md-6">
                                     <div className="text-center">
                                         <img src="/icons/icons8-timesheet-100.png" width="25"/>
                                         <strong>{e.time}</strong>
                                     </div>
                                 </div>
-                                <div class="col-4">
-                                    <a href={e.siteLink} target="_blank">{e.company}</a>
-                                </div>
-                                <div class="col-4">
-                                    {e.designation}
+                                <div class="col-3 col-md-6 justify-content-start d-flex">
+                                    <div class="badge bg-dark text-white mx-1" style={styles.ExperienceText}>
+                                        {e.designation} at <a href={e.siteLink} target="_blank">{e.company}</a>
+                                    </div>
                                 </div>
                             </div>
                         )

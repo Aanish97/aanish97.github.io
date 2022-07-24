@@ -6,6 +6,13 @@ import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Project from "./Components/Projects";
 import ClientTestimonials from "./Components/ClientTestimonials";
+import Technologies from './Components/Technologies';
+
+const styles = {
+  customBorderRadius: {
+      borderRadius: '1.3rem',
+  },
+}
 
 function App() {
   return (
@@ -13,7 +20,14 @@ function App() {
         <Navbar/>
         <Intro/>
         <Education/>
-        <Experience/>
+        <div class="container text-white py-5 d-md-flex">
+          <div class='col-md-6 col-12'>
+            <Experience/>
+          </div>
+          <div className='col-md-6 col-12 bg-dark border' style={styles.customBorderRadius}>
+            <Technologies/>
+          </div>
+        </div>
         <Project/>
         <ClientTestimonials/>
     </div>

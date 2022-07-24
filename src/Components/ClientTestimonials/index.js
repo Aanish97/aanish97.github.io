@@ -69,7 +69,7 @@ function ClientTestimonials() {
             <div class="container py-5">
                 <div style={styles.ProjectContainer} className="row">
                     <div className="col">
-                        Testimonials
+                        Client Testimonials
                     </div>
                 </div>
                 <div className="row my-3 d-flex" style={styles.Project}>
