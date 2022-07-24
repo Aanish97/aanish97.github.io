@@ -24,7 +24,7 @@ function App() {
           <div class='col-md-6 col-12'>
             <Experience/>
           </div>
-          <div className='col-md-6 col-12 bg-dark border' style={styles.customBorderRadius}>
+          <div className='col-md-6 col-12 bg-dark ' style={styles.customBorderRadius}>
             <Technologies/>
           </div>
         </div>
