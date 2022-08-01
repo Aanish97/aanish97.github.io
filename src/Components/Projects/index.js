@@ -32,7 +32,7 @@ function Project() {
         },
         {
             text: "Worked on site to render dynamic blog content, gradient colors, shades and code snippets. " +
-                "I worked with a tema of 4+ and worked on the site as a full stack developer",
+                "I worked with a team of 8 and worked on the site as a full stack developer",
             tech: ["React js", "Django", "Python"],
             siteLink: "https://devdevout.com/",
             projectName: "Devdevout",

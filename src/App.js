@@ -19,7 +19,7 @@ function App() {
     <div className="App">
         <Navbar/>
         <Intro/>
-        <Education/>
+        <Project/>
         <div class="container text-white py-5 d-md-flex">
           <div class='col-md-6 col-12'>
             <Experience/>
@@ -28,7 +28,7 @@ function App() {
             <Technologies/>
           </div>
         </div>
-        <Project/>
+        <Education/>
         <ClientTestimonials/>
     </div>
   );

@@ -20,10 +20,16 @@ function Experience() {
 
     const experience = [
         {
+            designation: "Sr. Software Engineer",
+            siteLink: "https://leonardo247.com//",
+            company: "Leonardo247",
+            time: "06/2022 - Current"
+        },
+        {
             designation: "Software Engineer",
             siteLink: "https://esketchers.com/",
             company: "Esketchers",
-            time: "06/2020 - Current"
+            time: "06/2020 - 06/2022"
         },
         {
             designation: "Freelancer",
